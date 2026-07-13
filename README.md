@@ -200,9 +200,9 @@ or execute individual TestNG test classes.
 
 MCA Graduate | Software Test Engineer | Manual & Automation Testing Enthusiast
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/G0DZuK
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: https://www.linkedin.com/in/jerry-s-george/
 
 ---
 

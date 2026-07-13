@@ -1,0 +1,67 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="DemoQA Suite">
+
+    <!-- Data Driven Test -->
+    <test name="Data Driven Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Data Driven Edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- Book Store Flow -->
+    <test name="Book Store Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.BookStoreFlowTest"/>
+        </classes>
+    </test>
+
+    <test name="Book Store Edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="tests.BookStoreFlowTest"/>
+        </classes>
+    </test>
+    <!-- Sub modules -->
+    <test name="Sub Modules Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.TextBoxTest"/>
+            <class name="tests.RadioButtonTest"/>
+            <class name="tests.WebTableTest"/>
+            <class name="tests.UploadDownloadTest"/>
+            <class name="tests.PracticeFormTest"/>
+            <class name="tests.AlertTest"/>
+            <class name="tests.FramesTest"/>
+            <class name="tests.ModalDialogsTest"/>
+            
+        </classes>
+    </test>
+
+    <test name="Sub Modules Edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="tests.TextBoxTest"/>
+            <class name="tests.RadioButtonTest"/>
+            <class name="tests.WebTableTest"/>
+            <class name="tests.UploadDownloadTest"/>
+            <class name="tests.PracticeFormTest"/>
+            <class name="tests.AlertTest"/>
+            <class name="tests.FramesTest"/>
+            <class name="tests.ModalDialogsTest"/>
+        </classes>
+    </test>
+    
+
+</suite>
